@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "aliuwahab/continent-country-seeder",
+    "description": "This is a package to help developers to quickly seed their database with a list of all the continents and the respective countries and relations established",
     "keywords": [
-        ":vendor_name",
+        "aliuwahab",
         "laravel",
-        ":package_slug"
+        "continent-country-seeder"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/aliuwahab/continent-country-seeder",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Aliu",
+            "email": "aliuwahab@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Aliuwahab\\ContinentCountrySeeder\\": "src",
+            "Aliuwahab\\ContinentCountrySeeder\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Aliuwahab\\ContinentCountrySeeder\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,15 +49,19 @@
         "test-coverage": "vendor/bin/pest --coverage"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": false,
+            "phpstan/extension-installer": true
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Aliuwahab\\ContinentCountrySeeder\\ContinentCountrySeederServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ContinentCountrySeeder": "Aliuwahab\\ContinentCountrySeeder\\Facades\\ContinentCountrySeeder"
             }
         }
     },
