@@ -4,4 +4,5 @@ namespace Aliuwahab\ContinentCountrySeeder;
 
 class ContinentCountrySeeder
 {
+    //
 }
