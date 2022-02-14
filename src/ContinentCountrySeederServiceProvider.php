@@ -18,7 +18,6 @@ class ContinentCountrySeederServiceProvider extends PackageServiceProvider
         $package
             ->name('continent-country-seeder')
             ->hasConfigFile()
-            ->hasViews()
             ->hasMigrations([
                 'create_continents_table',
                 'create_countries_table',
