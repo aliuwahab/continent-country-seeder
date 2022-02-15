@@ -9,6 +9,13 @@ class Continent extends Model
 {
     public $guarded = ['id'];
 
+    public function __construct(array $attributes = [])
+    {
+        parent::__construct($attributes);
+
+        $this->setTable(config('continent-country-seeder.continents_table_name'));
+    }
+
     public function countries(): HasMany
     {
         return $this->hasMany(Country::class);
