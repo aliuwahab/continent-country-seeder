@@ -1,11 +1,10 @@
-# This is a package to help developers to quickly seed their database with a list of all the continents and the respective countries and relations established
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aliuwahab/continent-country-seeder.svg?style=flat-square)](https://packagist.org/packages/aliuwahab/continent-country-seeder)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/aliuwahab/continent-country-seeder/run-tests?label=tests)](https://github.com/aliuwahab/continent-country-seeder/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/aliuwahab/continent-country-seeder/Check%20&%20fix%20styling?label=code%20style)](https://github.com/aliuwahab/continent-country-seeder/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/aliuwahab/continent-country-seeder.svg?style=flat-square)](https://packagist.org/packages/aliuwahab/continent-country-seeder)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This is a package to help developers to quickly seed their database with a list of all the continents and the respective countries with currency codes.
 
 ## Support us
 
