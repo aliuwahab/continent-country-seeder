@@ -8,10 +8,6 @@ return new Collection([
         'code' => 'AF',
         'name' => 'Africa',
     ], [
-        'id' => 2,
-        'code' => 'AN',
-        'name' => 'Antarctica',
-    ], [
         'id' => 3,
         'code' => 'AS',
         'name' => 'Asia',
