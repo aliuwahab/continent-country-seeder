@@ -93,7 +93,7 @@ return new Collection([
     ['code' => 'TW', 'name' => 'Taiwan', 'continent' => 'AS', 'currency' => 'TWD'],
     ['code' => 'TJ', 'name' => 'Tajikistan', 'continent' => 'AS', 'currency' => 'TJS'],
     ['code' => 'TH', 'name' => 'Thailand', 'continent' => 'AS', 'currency' => 'THB'],
-    ['code' => 'TR', 'name' => 'Turkey', 'continent' => 'AS', 'currency' => 'GHS'],
+    ['code' => 'TR', 'name' => 'Turkey', 'continent' => 'AS', 'currency' => 'TRY'],
     ['code' => 'AE', 'name' => 'United Arab Emirates', 'continent' => 'AS', 'currency' => 'AED'],
     ['code' => 'UZ', 'name' => 'Uzbekistan', 'continent' => 'AS', 'currency' => 'UZS'],
     ['code' => 'VN', 'name' => 'Vietnam', 'continent' => 'AS', 'currency' => 'VND'],
