@@ -157,7 +157,7 @@ return new Collection([
     ['code' => 'MX', 'name' => 'Mexico', 'continent' => 'NA', 'currency' => 'MXN'],
     ['code' => 'NI', 'name' => 'Nicaragua', 'continent' => 'NA', 'currency' => 'NIO'],
     ['code' => 'PA', 'name' => 'Panama', 'continent' => 'NA', 'currency' => 'PAB'],
-    ['code' => 'UM', 'name' => 'United States of America', 'continent' => 'NA', 'currency' => 'USD'],
+    ['code' => 'US', 'name' => 'United States of America', 'continent' => 'NA', 'currency' => 'USD'],
     ['code' => 'AU', 'name' => 'Australia', 'continent' => 'OC', 'currency' => 'AUD'],
     ['code' => 'NZ', 'name' => 'New Zealand', 'continent' => 'OC', 'currency' => 'NZD'],
     ['code' => 'WS', 'name' => 'Samoa', 'continent' => 'OC', 'currency' => 'WST'],
