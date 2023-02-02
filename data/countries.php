@@ -165,7 +165,7 @@ return new Collection([
     ['code' => 'BR', 'name' => 'Brazil', 'continent' => 'SA', 'currency' => 'BRL'],
     ['code' => 'CL', 'name' => 'Chile', 'continent' => 'SA', 'currency' => 'CLP'],
     ['code' => 'CO', 'name' => 'Colombia', 'continent' => 'SA', 'currency' => 'COP'],
-    ['code' => 'EC', 'name' => 'Ecuador', 'continent' => 'SA', 'currency' => 'ECU'],
+    ['code' => 'EC', 'name' => 'Ecuador', 'continent' => 'SA', 'currency' => 'USD'],
     ['code' => 'GY', 'name' => 'Guyana', 'continent' => 'SA', 'currency' => 'GYD'],
     ['code' => 'PY', 'name' => 'Paraguay', 'continent' => 'SA', 'currency' => 'PYG'],
     ['code' => 'PE', 'name' => 'Peru', 'continent' => 'SA', 'currency' => 'PEN'],
